@@ -34,12 +34,11 @@ export class JobService {
 
   constructor() {}
 
-  // aynchronous function to return list of contacts using observables
   getJobs(): Observable<Job[]> {
     return of(this.listOfJobs);
   }
 
   getJob(jobId: number): Observable<Job | undefined> {
-    return of(this.listOfJobs.find(j => j.id == jobId));
+    return of(this.listOfJobs.find((j) => j.id == jobId));
   }
 }

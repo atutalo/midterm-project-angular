@@ -10,7 +10,6 @@ import { JobService } from 'src/app/services/job-service.service';
 })
 export class JobDetailsComponent implements OnInit {
   job?: Job;
-  jobId: number = 0;
   jobList: Job[] = [];
 
   constructor(
