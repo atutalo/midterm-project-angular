@@ -3,10 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('assets/img/backgroundjs.jpeg');
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-
 @font-face {
     font-family: Pirate Font;
     src: url(assets/fonts/Pieces-of-Eight.ttf) format('truetype');
@@ -20,4 +19,5 @@ body {
     font-size: x-large;
     font-family: Pirate Font;
     border: rgba(0, 0, 0, 0.769) 1px solid;
+    background-color: white;
 }

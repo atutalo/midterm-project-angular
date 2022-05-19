@@ -12,7 +12,7 @@ export class JobService {
       title: 'Master Marksman',
       description:
         "Jack can easily hit mobile targets, such as a falling barrel of gunpowder. He was also capable of shooting the Dead Man's Chest out of Davy Jones' hand during a maelstrom while swinging on a rope.",
-      duration: '24 hours',
+      duration: '10 hours',
       employer: 'Self Employed',
     },
     {
@@ -20,7 +20,7 @@ export class JobService {
       title: 'Master Swordsman',
       description:
         'Jack was taught swordsmanship by an Italian fencing master after doing him a favor. He can keep up with multiple pirates at the same time and outmatched Davy Jones and Barbossa in a duel, as well as William Turner Junior.',
-      duration: '8 hours',
+      duration: '7 hours',
       employer: 'Self Employed',
     },
     {
