@@ -2,6 +2,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url('assets/img/backgroundjs.jpeg');
+     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @font-face {
@@ -9,11 +12,12 @@ body {
     src: url(assets/fonts/Pieces-of-Eight.ttf) format('truetype');
 }
 #navBar {
-    background-color: rgb(125, 9, 9);
+    background-color: rgb(255, 255, 255);
     padding: 0px 10px;
 }
 .btn {
     margin: 7px 5px;
     font-size: x-large;
     font-family: Pirate Font;
+    border: rgba(0, 0, 0, 0.769) 1px solid;
 }
