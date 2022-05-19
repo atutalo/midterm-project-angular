@@ -1,7 +1,9 @@
-<div *ngIf="job">
-    <p>{{job.title}}, {{job.employer}} ({{job.duration}})</p>
-    <p>{{job.description}}</p>
-</div>
+<div id="jobDetailsOutline">
+  <div *ngIf="job">
+    <h2 id="jobName">{{ job.title }}, {{ job.employer }} ({{ job.duration }})</h2>
+    <p>{{ job.description }}</p>
+  </div>
 
-<div *ngIf="!job">No job data</div>
-<a [routerLink]="['/jobs']">Back</a>
+  <div *ngIf="!job">No job data</div>
+  <a [routerLink]="['/jobs']">Back</a>
+</div>

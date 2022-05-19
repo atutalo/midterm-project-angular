@@ -1,4 +1,6 @@
-<h1>{{title}}</h1>
-<div *ngFor="let job of jobList">
-    <a [routerLink]="['/jobs', job.id]">{{job.title}}</a>
+<div id="jobsOutline">
+  <h1 id="jobsHeader">{{ title }}</h1>
+  <div *ngFor="let job of jobList" id="jobList">
+    <a [routerLink]="['/jobs', job.id]">{{ job.title }}</a>
+  </div>
 </div>

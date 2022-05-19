@@ -1,0 +1,16 @@
+#jobDetailsOutline {
+    margin: 50px 20%;
+    padding: 30px;
+    border: black 2px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#jobDetailsHeader {
+    text-align: center;
+    font-family: Pirate Font;
+    font-size: xxx-large;
+}
+#jobName {
+    text-align: center;
+    font-family: Pirate Font;
+}
