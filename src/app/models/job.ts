@@ -1,5 +1,5 @@
 export class Job {
-    id: string = '';
+    id: Number = 0;
     title: string = '';
     description: string = '';
     duration: string = '';

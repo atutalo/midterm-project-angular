@@ -1,4 +1,4 @@
 <h1>{{title}}</h1>
 <div *ngFor="let job of jobList">
-    <a href="">{{job.title}}</a>
+    <a [routerLink]="['/jobs', job.id]">{{job.title}}</a>
 </div>
